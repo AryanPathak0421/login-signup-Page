@@ -9,7 +9,7 @@ const port = 3000;
 
 // Connect to MongoDb
 mongoose
-.connect('mongodb+srv://aryanpathak0421_db_user:XQHMcVewAoYHv2s1@cluster0.qzn72j9.mongodb.net/?appName=Cluster0',{useNewUrlParser:true,useUnifiedTopology:true})
+.connect('mongodb+srv://aryanpathak0421_db_use0.qzn72j9.mongodb.net/?appName=Cluster0',{useNewUrlParser:true,useUnifiedTopology:true})
 .then(()=> console.log("MongoDB connected."))
 .catch((err) => console.error("MongoDB connection Error:",err));
 
